@@ -24,4 +24,4 @@ def second_largest(arr):
 
     return largest, second_largest
 
-=
+
