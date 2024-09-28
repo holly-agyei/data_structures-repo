@@ -15,13 +15,15 @@ def second_largest(arr):
         if arr[i] == largest:
             continue
         
-        elif arr[i] > largest and arr[i] > second_largest:
-            largest = arr[i]
-            second_largest = arr[i-1]      
+        elif arr[i] > largest:
+           second_largest = largest
+           largest = arr[i]      
 
-        elif arr[i] < largest and arr[i] > second_largest:
+        elif arr[i] > second_largest and arr[i] != largest:
             second_largest = arr[i]      
 
     return largest, second_largest
+
+
 
 
