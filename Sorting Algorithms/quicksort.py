@@ -23,7 +23,7 @@ def quicksort(arr):
         arr =  quicksort(less) + [pivot] + quicksort(greater)
         return arr
 
-print(quicksort([3,2,4,5,77,6,1]))
+
         
         
         
