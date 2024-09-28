@@ -20,8 +20,10 @@ def quicksort(arr):
         greater = [ i for i in arr[1:] if i > pivot]
 
         #Set the inductive case
-        arr =  quicksort(less) + pivot + quicksort(greater)
+        arr =  quicksort(less) + [pivot] + quicksort(greater)
         return arr
+
+print(quicksort([3,2,4,5,77,6,1]))
         
         
         
