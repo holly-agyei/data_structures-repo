@@ -1,3 +1,4 @@
+"""
 def check_pairs(s)->str:
     stack = []
     pairs = {'(':')','{':'}','[':']'}
@@ -14,3 +15,128 @@ def check_pairs(s)->str:
 
 s = "(([]){"
 print(check_pairs(s))
+
+"""
+"""
+
+stack = []
+min_stack = []
+
+def push(element):
+    if not min_stack:
+       min_stack.append(element)
+    elif element <= min_stack[-1]:
+            min_stack.append(element)
+            stack.append(element)
+    else:
+        stack.append(element)
+
+
+def pop():
+    if stack:  # Check if the stack is not empty
+        if stack[-1] == min_stack[-1]:  # Check if the top element is the current minimum
+            min_stack.pop()  # Remove it from min_stack
+        return stack.pop()  # Return the popped element
+    else:
+        return None  # Handle empty stack case
+    
+   
+def top():
+    if stack:
+        print((stack[-1]))
+    else:
+        return None
+    
+
+def getMin():
+    if min_stack:
+        print((min_stack[-1]))
+    else:
+        return None
+
+
+   
+
+
+push(3)
+push(5)
+getMin()
+push(2)
+getMin()
+push(1)
+getMin()
+pop()
+getMin()
+pop()
+pop()
+getMin()
+
+"""
+
+"""
+def remove_dupes(items):
+   start = 0
+   end = len(items)-1
+
+   while start < len(items)-1:
+      if items[start]==items[end]:
+         del items[end]
+         end -=1
+         start +=1
+      else:
+        end -=1
+
+   return len(items)
+
+
+
+items = ["extract of malt", "haycorns", "honey", "thistle", "thistle"]
+print(remove_dupes(items))
+
+items = ["extract of malt", "haycorns", "honey", "thistle"]
+print(remove_dupes(items))
+        
+
+        """
+
+"""
+Given an integer array nums, write a function sort_by_parity() that moves all the even integers at the beginning of the array followed by all the odd integers.
+
+Return any array that satisfies this condition.
+"""
+start = 0
+end = 0
+
+def sort_by_parity(nums):
+    """
+    for i in range(len(nums)):
+        if i % 2 == 0:
+            break
+    start = i 
+
+    for j in range(len(nums)):
+        if j % 2 ==1:
+            break
+
+    end = j
+   """
+
+    new_numb = [i for i in nums if i%2 ==0]
+    for i in nums:
+        if i %2 == 1:
+            new_numb.append(i)
+    
+    nums=new_numb[:]
+    return nums
+nums =[3,1,2,4,9,6,8,10,4]
+print(sort_by_parity(nums))
+
+
+     
+    
+
+
+
+
+
+        
