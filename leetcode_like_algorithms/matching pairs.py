@@ -108,26 +108,28 @@ start = 0
 end = 0
 
 def sort_by_parity(nums):
-    """
-    for i in range(len(nums)):
-        if i % 2 == 0:
-            break
-    start = i 
-
-    for j in range(len(nums)):
-        if j % 2 ==1:
-            break
-
-    end = j
-   """
-
-    new_numb = [i for i in nums if i%2 ==0]
-    for i in nums:
-        if i %2 == 1:
-            new_numb.append(i)
     
-    nums=new_numb[:]
+    start = 0
+    end = len(nums)-1
+
+    while start < end:
+        #when the first is even and the last is odd
+        if nums[start]%2==0 and nums[end]%2 == 1:
+            start +=1
+        elif nums[start]%2==1 and nums[end]%2 == 0:
+            nums[start], nums[end] = nums[end], nums[start]
+            start +=1
+            end -=1
+        elif nums[start]%2==1 and nums[end]%2 == 1:
+            end -=1
+        else:
+            start +=1
     return nums
+
+
+
+
+
 nums =[3,1,2,4,9,6,8,10,4]
 print(sort_by_parity(nums))
 
