@@ -26,12 +26,15 @@ def max_heapify(arr, i):
         
 # now let's call this maxheapify on every internal node starting from the last to the first.
 def heapify_arr(arr):
-    for i in range(int(len(arr)/2)-1, -1, -1):
+    for i in range(int(len(arr)/2)-1, -1, -1): # the floor division can also be //  len(arr)//2 -1
         max_heapify(arr, i)
         
     return arr
 
 
+
 print(heapify_arr([5,7,8,2,1,0,3,4,6,9,3,4]))
+
+
         
      
