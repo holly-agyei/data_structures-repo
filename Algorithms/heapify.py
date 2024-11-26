@@ -10,12 +10,12 @@ def max_heapify(arr, i):
     
     
     #first condition 
-    if left <= len(arr) and arr[left] > arr[i]:
+    if left < len(arr) and arr[left] > arr[i]:
         largest = left
     else:
         largest = i
         
-    if right <= len(arr) and arr[right] > arr[largest]:
+    if right < len(arr) and arr[right] > arr[largest]:
         largest = right
         
     # now assume we have gotten the largest between the r, l and i
@@ -28,7 +28,7 @@ def max_heapify(arr, i):
         
         max_heapify(arr, largest)
         
-    return arr
+    # this is an in-place function and we dont need to return the arr, instead, the array is directly modified!
         
 print(max_heapify([1,2,3], 0))
         
