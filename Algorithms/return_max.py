@@ -28,9 +28,11 @@ def return_max(arr):
         
         max_heapify(arr, 0)
         
+        
         return max
     
     
-print(return_max([5,3,4,2]))
+arr = return_max([5,3,4,2])
+print(arr)
         
         
