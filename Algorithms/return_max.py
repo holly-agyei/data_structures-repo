@@ -24,10 +24,11 @@ def max_heapify(arr, i):
 def return_max(arr):
         max = arr[0]   # first step 
         
-        arr[0] = arr.pop(arr[-1]) #second step
+        arr[0] = arr.pop(len(arr)-1) #second step
         
         max_heapify(arr, 0)
         
-
+        return max
+print(return_max([1,2,3,4,5]))
         
         

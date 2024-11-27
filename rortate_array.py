@@ -31,3 +31,4 @@ def rotate_array_right(arr,d):
 
         arr = arr[(n-1)-d::-1]+ arr[:(n-1)-d:-1] 
         return arr[::-1]
+                                                                                                
