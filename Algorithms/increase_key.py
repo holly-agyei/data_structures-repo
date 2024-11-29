@@ -20,5 +20,37 @@ def increase_key(arr, i, key):
         i = (i-1)//2
     return arr
 print(increase_key([7,5,4,2,3], 4, 10))
-    
 
+
+#here is the decrease key algorithm
+#put the key at where it's supposed to be
+
+def decrease_key(arr, i, key):
+    arr[i] = key  # Update the key at index i
+    
+    while True:
+        left = 2 * i + 1
+        right = 2 * i + 2
+        largest = i  # Assume the current node is the largest
+        
+        # Check left child
+        if left < len(arr) and arr[left] > arr[largest]:
+            largest = left
+        
+        # Check right child
+        if right < len(arr) and arr[right] > arr[largest]:
+            largest = right
+        
+        # If largest is still i, the heap property is satisfied
+        if largest == i:
+            break
+        
+        # Swap with the largest child
+        arr[i], arr[largest] = arr[largest], arr[i]
+        i = largest  # Move to the largest child's index for the next iteration
+    
+    return arr
+
+# Example usage
+arr = [8, 7, 6, 5, 4, 3, 2]
+print(decrease_key(arr, 2, 1))
