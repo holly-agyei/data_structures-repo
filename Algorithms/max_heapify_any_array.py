@@ -33,7 +33,7 @@ def heapify_arr(arr):
 
 
 
-print(heapify_arr([5,7,8,2,1,0,3,4,6,9,3,4]))
+print(heapify_arr([1,8,5,3,2]))
 
 
         

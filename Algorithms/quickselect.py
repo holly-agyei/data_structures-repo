@@ -28,5 +28,5 @@ def quickselect(arr, l, r, k):
     
     
 
-print(quickselect([1,3,5,2],0,3,3))
+print(quickselect([1,3,5,2],0,3,4))
         
