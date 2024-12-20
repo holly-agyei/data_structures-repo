@@ -1,5 +1,5 @@
 import heapq
-def solve(self, A, B, C):
+def solve(A, B, C):
         A.sort(reverse = True)
         B.sort(reverse = True)
         max_heap = []
