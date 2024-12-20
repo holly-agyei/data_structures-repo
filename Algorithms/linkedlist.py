@@ -3,7 +3,8 @@ class Node:
         self.data = data
         self.next = None  
         self.prev = None
-        
+    def __repr__(self):
+        return f"{self.data}"
 
 Node1 = Node(2)
 Node2 = Node(3)
@@ -31,6 +32,7 @@ currentNode = Node4
 while currentNode: #whole currentNode.next isnot null
     print(currentNode, end="->")
     currentNode = currentNode.prev
+    
     
    
 
