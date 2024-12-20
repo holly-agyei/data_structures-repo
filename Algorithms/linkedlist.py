@@ -1,40 +1,41 @@
 class Node:
     def __init__(self, data):
         self.data = data
-        self.next = None  
+        self.next = None
         self.prev = None
     def __repr__(self):
         return f"{self.data}"
 
-Node1 = Node(2)
-Node2 = Node(3)
-Node3 = Node(6)
-Node4 = Node(-4)
-
-Node2.next = Node3
-Node2.prev = Node1
-Node1.next = Node2
-
-Node3.next = Node4
-Node3.prev = Node2
-Node4.prev = Node3
-
-currentNode = Node1
-
-while currentNode: #whole currentNode.next isnot null
-    print(currentNode, end="->")
-    currentNode = currentNode.next
-    if currentNode is None:
-        print("None")
-#traverse back
-
-currentNode = Node4
-while currentNode: #whole currentNode.next isnot null
-    print(currentNode, end="->")
-    currentNode = currentNode.prev
+def TraverseLinkedList(head):
+    currentNode =   head
+    while currentNode:
+        print(currentNode, end="->")
+        currentNode = currentNode.next
+    print("Null")
+def deletespecific(head, todel):
+    if head == todel:
+        return head.next
+    currentNode = head
+    while currentNode.next and currentNode.next != todel:
+        currentNode = currentNode.next
     
+    currentNode.next = currentNode.next.next
+    if currentNode.next is None:
+        return head
     
-   
+    return head
 
+node1 = Node(7)
+node2 = Node(11)
+node3 = Node(3)
+node4 = Node(2)
+node5 = Node(9)
 
+node1.next = node2
+node2.next = node3
+node3.next = node4
+node4.next = node5
 
+TraverseLinkedList(node1)
+deletespecific(node1, node3)
+TraverseLinkedList(node1)
