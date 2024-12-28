@@ -21,3 +21,8 @@ def max_heapify(arr):
 
 print(max_heapify([1,8,5,3,2]))
         
+sum = 0
+total = sum 
+total = 4
+
+print(sum)
