@@ -41,3 +41,5 @@ def mergesort(arr, low, high):
 arr = [3, 1, 2]
 mergesort(arr, 0, len(arr) - 1)  # Call the function to sort the array
 print(arr) 
+
+
