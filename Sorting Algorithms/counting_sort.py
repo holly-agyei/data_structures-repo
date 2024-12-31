@@ -33,4 +33,3 @@ def countingsort(arr):
 arr = [3,1,2]
 print(countingsort(arr))
           
-      
