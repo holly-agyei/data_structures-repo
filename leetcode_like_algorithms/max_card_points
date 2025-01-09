@@ -1,0 +1,53 @@
+class Solution:
+    def maxScore(self, cardPoints: List[int], k: int) -> int:
+       #set the window of k on the left
+       #set lsum and rsum, and max_sum
+       #shrink left till u get to the first{while k >= 0}
+       #expand the right in each operation
+
+       lsum, rsum, max_sum = 0,0,0
+       left = 0
+
+       while left<k:
+        lsum +=cardPoints[left]
+        left+=1
+
+       left-=1
+       n = len(cardPoints)-1
+       max_sum = lsum
+       
+
+       while left >=0:
+        
+        lsum = lsum - cardPoints[left]
+        rsum = rsum+ cardPoints[n]
+
+        max_sum = max(max_sum, (rsum+lsum))
+
+        left-=1
+        n-=1
+
+       print(n) 
+       return max_sum
+
+
+
+
+
+
+
+       #set the window on the left and it's sum
+
+
+
+
+        
+
+
+        
+
+            
+
+        
+        
+        
