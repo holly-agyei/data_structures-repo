@@ -127,3 +127,40 @@ play_game()
     
 
 """
+
+def solution(logs):
+    item_price = {}
+    revenue = []
+    for log in logs:
+        if log[0] == "sell":
+            count = int(log[2])
+            curr_rev = 0
+            while count:
+                curr_rev += item_price.get(log[1]).pop()
+                count -= 1
+            revenue.append(curr_rev)
+        elif log[0] == "supply":
+            count = int(log[2])
+            
+            while count:
+                item_price[log[1]] = item_price.get(log[1], []) + [int(log[3])]
+                count -= 1
+        else:
+            count = int(log[2])
+            
+            while count:
+                item_price[log[1]] = item_price.get(log[1], []) + [int(log[4])]
+                count -= 1
+                
+    return revenue
+
+
+
+
+
+
+
+
+
+
+
