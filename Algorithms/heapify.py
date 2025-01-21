@@ -31,5 +31,7 @@ def max_heapify(arr, i):
     # this is an in-place function and we dont need to return the arr, instead, the array is directly modified!
         
 print(max_heapify([1,2,3], 0))
+
+print(x)
         
     
