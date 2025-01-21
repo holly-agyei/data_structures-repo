@@ -32,7 +32,6 @@ def max_heapify(arr, i):
         
 print(max_heapify([1,2,3], 0))
 
-print(x)
-print(y)
+
         
     
