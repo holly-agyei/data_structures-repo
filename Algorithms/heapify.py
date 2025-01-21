@@ -6,7 +6,7 @@ def max_heapify(arr, i):
     #to check when i is at leaf, I wont contain left or right child. so L and R will go out of bound.
     #call the recursive function when the largest of i and it's children is one of it's children.( i less than one of the children, we swap)
     
-   
+    left, right = 2*i+1, 2*i+2
     
     
     #first condition 
