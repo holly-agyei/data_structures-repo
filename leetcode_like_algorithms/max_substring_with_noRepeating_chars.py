@@ -27,4 +27,5 @@ class Solution:
 
 "space and time complexity analysis"
 time: O(N)
+space: O(1)
         
