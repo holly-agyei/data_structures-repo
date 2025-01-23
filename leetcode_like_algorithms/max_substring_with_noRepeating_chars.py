@@ -26,4 +26,5 @@ class Solution:
         return max_len
 
 "space and time complexity analysis"
+time: O(N)
         
