@@ -13,9 +13,7 @@ class Solution:
             return 0  
 
 
-        while r < len(s):
-            if s[r] not in visited:
-                visited.add(s[r])
+       
                 
                 max_len = max(max_len, r-l+1)
                 r+=1
