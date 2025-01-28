@@ -133,7 +133,7 @@ def sort_by_parity(nums):
 nums =[3,1,2,4,9,6,8,10,4]
 print(sort_by_parity(nums))
 
-=
+
 
 
      
