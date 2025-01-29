@@ -14,7 +14,7 @@ def check_pairs(s)->str:
     return not stack
 
 s = "(([]){"
-print(check_pairs(s))
+
 
 """
 """
