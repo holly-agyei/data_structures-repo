@@ -14,35 +14,7 @@ def check_pairs(s)->str:
     return not stack
 
 s = "(([]){"
-from typing import List
-
-class Solution:
-    def minStartValue(self, nums: List[int]) -> int:
-        """
-        We need to find a start value such that at any point, the prefix sum > 0.
-        We can start from 1 and increase it if the sum goes negative.
-        """
-
-        num = 0
-        startNum = 1  # Start with 1 instead of min(nums) + 1
-        summ = 0
-
-        while num < len(nums):
-            if num == 0:
-                summ = startNum + nums[num]
-            else:
-                summ += nums[num]
-            
-            if summ < 1:  
-                startNum += (1 - summ)  # say sum = -1, we have to increase our start to 1 which is 1--1. 
-                num = 0  
-                summ = 0  # Reset summ to start fresh
-            else:
-                num += 1  
-
-        return startNum
-
-
+print(check_pairs(s))
 
 """
 """
