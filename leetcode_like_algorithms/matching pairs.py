@@ -23,7 +23,7 @@ stack = []
 min_stack = []
 
 def push(element):
-    if not min_stack:
+    
        min_stack.append(element)
     elif element <= min_stack[-1]:
             min_stack.append(element)
