@@ -9,3 +9,7 @@ class Solution:
             3. if they are not the same, like 5,1 return 15 (min, max), 
         
          """
+        
+        if min(nums1) == min(nums2):
+            return min(nums1) 
+               
