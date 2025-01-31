@@ -12,4 +12,7 @@ class Solution:
         
         if min(nums1) == min(nums2):
             return min(nums1) 
+        
+        maxx = max(min(nums1), (min(nums2)))  #5 from testcase1
+        minn = min(min(nums1), (min(nums2)))  #1 from testcase1
                
