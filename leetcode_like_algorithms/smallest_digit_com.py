@@ -15,4 +15,9 @@ class Solution:
         
         maxx = max(min(nums1), (min(nums2)))  #5 from testcase1
         minn = min(min(nums1), (min(nums2)))  #1 from testcase1
+        
+        # I Check if there's a common number in both lists so i return the smallest common
+        common = set(nums1).intersection(nums2)   #O(1)
+        if common:
+            return min(common)  
                
