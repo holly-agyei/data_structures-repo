@@ -20,4 +20,10 @@ class Solution:
         common = set(nums1).intersection(nums2)   #O(1)
         if common:
             return min(common)  
+        
+        #if none of the conditions apply, return min,max
+        return int(f"{minn}{maxx}")
+
+        #or i can return (10*minn + max) in mathematical perspective
+        
                
