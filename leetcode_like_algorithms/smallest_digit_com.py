@@ -25,8 +25,9 @@ class Solution:
         return int(f"{minn}{maxx}")
 
         #or i can return (10*minn + max) in mathematical perspective
-        l,r = 0, len(nums)-1
+         l,r = 0, len(nums)-1
         
         while l<=r:
             mid = (l+r)//2
+            
                
