@@ -4,4 +4,4 @@ visited = set()
             if num in visited:
                 return False
             visited.add(num)
-        return True
+       
