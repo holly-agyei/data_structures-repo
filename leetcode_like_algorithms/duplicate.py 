@@ -1,6 +1,6 @@
-visited = set()
+visited = set(
 
-        for num in nums:
+       
             
            
        
