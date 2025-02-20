@@ -42,7 +42,12 @@ hotplate: Microwave = Microwave("cooking_microwave", "D")
 print(repr(hotplate))
 
 
+"""
+the repr and str dunder methods will always be called when you print the instance. 
 
+the default is the memory of the class!
+to call the repr representation, you have to use repr(objectname)
+"""
 
 
 
