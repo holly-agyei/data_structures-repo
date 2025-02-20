@@ -5,23 +5,44 @@ class Microwave:
         self.turned_on: bool = False
         
         
-        def turn_on(self)->None:
-            if self.turned_on:
-                print(f"Microwave {self.brand} is already turned on")
-            else:
-               self.turned_on = True
-               print(f"Microwave {self.brand} is now turned on")
-               
-        def turn_off(self)->None:
-            if self.turned_on:
-                self.turned_on = False
-                print(f"Microwave {self.brand} is turned off")
-            else:
-               
-               print(f"Microwave {self.brand} is already turned off")
+    def turn_on(self)->None:
+        if self.turned_on:
+            print(f"Microwave {self.brand} is already turned on")
+        else:
+            self.turned_on = True
+            print(f"Microwave {self.brand} is now turned on")
+            
+    def turn_off(self)->None:
+        if self.turned_on:
+            self.turned_on = False
+            print(f"Microwave {self.brand} is turned off")
+        else:
+            
+            print(f"Microwave {self.brand} is already turned off")
+    
+    def run(self, seconds: int)->None:
+        if self.turned_on:
+            print(f'running {self.brand} for {seconds} seconds')
+        else:
+            print("turn on your microwave first!")
+
+    def __str__(self):
+        return f"{self.brand} and {self.power_rating}"
+    
+    def __repr__(self):
+        return f"microwave( brand = {self.brand}, power = {self.power_rating})"
+        
+        
+        
+                
                
     
-smeg: Microwave = Microwave("smeg", "B")
+smeg = Microwave("smeg", "B")
+hotplate: Microwave = Microwave("cooking_microwave", "D")
+print(repr(hotplate))
+
+
+
 
 
 
