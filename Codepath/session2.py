@@ -47,4 +47,4 @@ num = 423
 print(sum_of_digits(num))
 
 num = 4
-print(sum_of_digits(n
+print(sum_of_digits(num))
