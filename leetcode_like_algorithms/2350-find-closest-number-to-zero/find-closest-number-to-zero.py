@@ -10,14 +10,15 @@ class Solution:
             if abs(nums[i]) < abs(closest):
                 closest = nums[i]
                 
-            if abs(nums[i]) == abs(closest) and nums[i]> closest:
-                closest = nums[i]
+            if abs(nums[i]) == abs(closest) and closest != nums[i]:
+                closest= max(nums[i], closest)
                
                 
             
             
         
         return closest
+       
             
 
         
