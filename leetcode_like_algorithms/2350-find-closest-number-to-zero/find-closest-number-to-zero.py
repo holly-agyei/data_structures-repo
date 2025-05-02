@@ -4,14 +4,14 @@ class Solution:
         
         
 
-        #loop through array to make every number positive and at the same time try to find the minimum.
+        #this is like finding the absolute minimum in the array. (but in the case we nums like 1, -1), return the positive!
 
         for i in range(len(nums)):
             if abs(nums[i]) < abs(closest):
                 closest = nums[i]
                 
-            if abs(nums[i]) == abs(closest) and closest != nums[i]:
-                closest= max(nums[i], closest)
+            if abs(nums[i]) == abs(closest) and nums[i]> closest:
+                closest = nums[i]
                
                 
             
