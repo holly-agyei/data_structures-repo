@@ -17,9 +17,12 @@ class Solution:
         for interval in intervals[:]:
             if interval[0]>=prev_end: #keep
                 prev_end = interval[1]
-            else:
+            else: #remove that meeting an go to the next that ended late, check if it didnt overlap with the prev end.
                 overlaps+=1
-        return overlaps
+        return overlaps #bassically checkingn the number of overlaps
+
+        #I love greedy approach! to use greeedy approach, alway take the question to real life scenario and think differently.
+        #get a hypothesis with a guarantee that it works. 
 
 
 
