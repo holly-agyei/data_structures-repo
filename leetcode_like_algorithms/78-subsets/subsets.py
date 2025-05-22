@@ -7,17 +7,17 @@ class Solution(object):
 
         res = []
 
-        def sub(index, x, sol):
-            if index == len(x):
+        def sub(index, sol):
+            if index == len(nums):
                 res.append(sol[:])
                 return 
             
-            sol.append(x[index])
-            sub(index+1, x, sol)
+            sol.append(nums[index])
+            sub(index+1, sol)
             sol.pop()
-            sub(index+1,x, sol)
+            sub(index+1, sol)
             
-        sub(0,nums,sol=[])
+        sub(0,[])
         return res
         
 
