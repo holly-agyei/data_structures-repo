@@ -17,15 +17,17 @@ class Solution:
             size = len(queue)
             level_stack = []
 
-            for _ in range(size):
+            for i in range(size):
                 node = queue.popleft()
-                level_stack.append(node.val)
+                
+                if i == size-1:
+                    right_view.append(node.val)
 
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            right_view.append(level_stack.pop())
+            
         return right_view
 
 
