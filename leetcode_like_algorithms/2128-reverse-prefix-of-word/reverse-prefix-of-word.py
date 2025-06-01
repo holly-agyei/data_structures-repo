@@ -1,0 +1,10 @@
+class Solution:
+    def reversePrefix(self, word: str, ch: str) -> str:
+        #handle case where the ch is not in word
+        if ch not in set(word):
+            return word
+        
+        return "".join(word[word.find(ch)::-1])+word[word.find(ch)+1:]
+
+        
+        
