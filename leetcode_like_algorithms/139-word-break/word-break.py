@@ -8,7 +8,7 @@ class Solution:
         for cur in range(1, len(s)+1):
             #now loop through to see if theres a word
             for start in valid_starts:
-                if s[start:cur] in wordDict:
+                if s[start:cur] in  wordDict:
                     dp[cur] = True
                     valid_starts.append(cur)
                     break #found a valid start
