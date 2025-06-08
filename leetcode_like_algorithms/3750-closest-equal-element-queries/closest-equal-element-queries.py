@@ -5,38 +5,31 @@ from typing import List
 class Solution:
     def solveQueries(self, nums: List[int], queries: List[int]) -> List[int]:
         n = len(nums)
-        numMap = defaultdict(list)
+        my_map = defaultdict(list)
 
-        # Step 1: Store sorted positions of each number
-        for idx, val in enumerate(nums):
-            numMap[val].append(idx)
-
-        result = []
-
-        for q in queries:
-            val = nums[q]
-            positions = numMap[val]
-
-            # If the number occurs only once, no neighbor to compare
-            if len(positions) == 1:
-                result.append(-1)
+        for index, value in enumerate(nums):
+            my_map[value].append(index)
+        
+        results = [-1]*len(queries)
+        for index, q in enumerate(queries):
+            positions = my_map[nums[q]]
+            if len(positions)==1:
                 continue
+            k = len(positions)
+            indexx = bisect.bisect_left(positions,q) #find the index at q in positions
+            left_index = (indexx-1)%k
+            right_index = (indexx+1)%k
 
-            i = bisect.bisect_left(positions, q)
-            best = float('inf')
+            left = positions[left_index]
+            right = positions[right_index]    
 
-            # Left neighbor (wraps around if needed)
-            left = positions[(i - 1) % len(positions)]
-            if left != q:
-                dist = abs(left - q)
-                best = min(best, min(dist, n - dist))
+            if left !=q:
+                distance = abs(q-left)
+                circ_l = min(distance, n-distance)
+            distance = abs(q-right)
+            circ_r = min(distance, n-distance)
 
-            # Right neighbor (wraps around if needed)
-            right = positions[(i + 1) % len(positions)]
-            if right != q:
-                dist = abs(right - q)
-                best = min(best, min(dist, n - dist))
+            results[index] = (min(circ_r, circ_l))
+        return results
 
-            result.append(best)
 
-        return result
