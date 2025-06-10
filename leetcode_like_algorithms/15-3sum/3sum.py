@@ -1,38 +1,35 @@
-from typing import List
-
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # Sort the numbers first
         nums.sort()
         results = []
 
-        # Iterate through nums, fixing one element at a time
-        for fixed in range(len(nums) - 2):
-            if fixed > 0 and nums[fixed] == nums[fixed - 1]:  # Skip duplicates for fixed
-                continue
+        for i in range(len(nums)-2):
+            if  i> 0 and nums[i] == nums[i-1]:
+                
+                continue 
+            l, r = i+1, len(nums)-1
             
-            left, right = fixed + 1, len(nums) - 1  # Two-pointer approach
-
-            while left < right:
-                total = nums[fixed] + nums[left] + nums[right]
-
-                if total == 0:
-                    results.append([nums[fixed], nums[left], nums[right]])
-                    
-                    # Move both pointers while skipping duplicates
-                    while left < right and nums[left] == nums[left + 1]:
-                        left += 1
-                    while left < right and nums[right] == nums[right - 1]:
-                        right -= 1
-                    
-                    left += 1
-                    right -= 1
-
-                elif total < 0:
-                    left += 1  # Increase sum by moving left pointer
+            while l<r:
+                
+                summ = nums[i]+nums[l]+nums[r]
+                if summ> 0:
+                    r-=1
+                elif summ<0:
+                    l+=1
                 else:
-                    right -= 1  # Decrease sum by moving right pointer
-
+                    results.append([nums[i], nums[l], nums[r]])
+                    l+=1
+                    r-=1
+                    
+                    while l<r and nums[l] == nums[l-1]:
+                        l+=1
+                    while l<r and nums[r] == nums[r+1]:
+                        r-=1
         return results
-
+     
             
+
+        
+                        
+
+
