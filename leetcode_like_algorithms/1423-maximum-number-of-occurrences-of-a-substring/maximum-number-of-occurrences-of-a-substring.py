@@ -1,35 +1,36 @@
 class Solution:
     def maxFreq(self, s: str, maxLetters: int, minSize: int, maxSize: int) -> int:
-        l, r = 0, 0
-        substrings = {}  # To count valid substrings and how many times they appear
-        window = {}      # To track character frequency in the current window
+        from collections import defaultdict
 
-        while r < len(s):
-            # Step 1: Expand window by adding character at index r
-            window[s[r]] = window.get(s[r], 0) + 1
+        freq_map = defaultdict(int)
 
-            # Step 2: Shrink window if it exceeds minSize
-            while (r - l + 1) > minSize:
-                # Reduce the count of the leftmost character
-                window[s[l]] -= 1
-                if window[s[l]] == 0:
-                    del window[s[l]]  # Clean up if count becomes zero
-                l += 1  # Move the left side of the window to the right
+        for size in range(minSize, maxSize + 1):
+            char_count = defaultdict(int)
+            l = 0
 
-            # Step 3: When window is exactly minSize, check and count substring
-            if (r - l + 1) == minSize:
-                if len(window) <= maxLetters:
-                    substr = s[l:r + 1]  # Get the current substring
-                    substrings[substr] = substrings.get(substr, 0) + 1
+            # Pre-fill the window
+            for r in range(size):
+                if r < len(s):
+                    char_count[s[r]] += 1
 
-            # Step 4: Move right side of window
-            r += 1
+            if len(char_count) <= maxLetters:
+                freq_map[s[0:size]] += 1
 
-        # Step 5: Return the maximum frequency found (or 0 if no valid substrings)
-        return max(substrings.values(), default=0)
+            for r in range(size, len(s)):
+                # Remove leftmost
+                char_count[s[l]] -= 1
+                if char_count[s[l]] == 0:
+                    del char_count[s[l]]
+                l += 1
 
+                # Add rightmost
+                char_count[s[r]] += 1
 
+                if len(char_count) <= maxLetters:
+                    substr = s[l:r + 1]
+                    freq_map[substr] += 1
 
+        return max(freq_map.values(), default=0)
 
             
                 
