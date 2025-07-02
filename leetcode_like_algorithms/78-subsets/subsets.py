@@ -1,38 +1,15 @@
-class Solution(object):
-    def subsets(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        stack = [([], 0)] #we are starting from index 0 for this path
+        results, k = [], len(nums)
 
-        res = []
+        while stack:
+            path, idx = stack.pop()
 
-        def sub(index, sol):
-            if index == len(nums):
-                res.append(sol[:])
-                return 
-            
-            sol.append(nums[index])
-            sub(index+1, sol)
-            sol.pop()
-            sub(index+1, sol)
-            
-        sub(0,[])
-        return res
-        
-
-
-                
-
-
-
-
-
-            
-            
-
-
-
-
-
-        
+            if idx == k:
+                #we have explored all paths, let's this is complete..i dont really know why we should finish exploring all path cox i thought every path is a subset
+                results.append(path)
+            else: #make your decisions and update your stack
+                stack.append((path+[nums[idx]], idx+1))
+                stack.append((path, idx+1))
+        return results
