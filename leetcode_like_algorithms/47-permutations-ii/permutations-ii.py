@@ -4,11 +4,12 @@ class Solution:
 
         stack =[([],set())]
         res = []
+        k = len(nums)
 
         while stack:
             path, visit = stack.pop()
 
-            if len(path)==len(nums):
+            if len(path)==k:
                 res.append(path)
             #im coming to loop but how to check for dup
             #when im appendin, i should check if nums[i] != 
