@@ -1,17 +1,23 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        dp = [False]*(len(s)+1)
-        dp[0] = True #so that s[0] is always a starting point.
-        valid_starts = [0]
-        wordDict = set(wordDict)
+        #I KNOW u can use dp but lemme try iterative backtracking 
 
-        for cur in range(1, len(s)+1):
-            #now loop through to see if theres a word
-            for start in valid_starts:
-                if s[start:cur] in  wordDict:
-                    dp[cur] = True
-                    valid_starts.append(cur)
-                    break #found a valid start
-        return dp[-1]
+        stack = [(0,0)] #idx, number of words matched
+        dictionary = Counter(wordDict)
+        visited = set()
+
+        while stack:
+            idx, matches =stack.pop()
+
+            if idx == len(s):
+                return True
+            if idx in visited:
+                continue
+            visited.add(idx)
             
+            for i in range(idx, len(s)):
+                substring = s[idx:i+1]
+                if substring in dictionary:
+                    stack.append((i+1, matches+1))
+        return False
 
