@@ -19,8 +19,8 @@ class Solution:
                 res.append(path)
                 
 
-            for i in range(idx, len(arr)):
-                stack.append((path+[arr[i]], i+1, size+1, total+i+1))
+            for i in range(idx, 9):
+                stack.append((path+[i+1],i+1, size+1, total+i+1))
         return res
 
         
