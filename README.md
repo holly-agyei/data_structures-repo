@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 ## Hash Table
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 ## Heap (Priority Queue)
 |  |
@@ -42,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
