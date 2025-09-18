@@ -7,16 +7,18 @@ class Solution:
 
         """
         counter = {}
-        
         heap = []
 
         for word in words:
-            counter[word]=counter.get(word, 0)+1
+            counter[word]=counter.get(word, 0)+1 #O(n)
             #push to the heap.
-        for word, freq in counter.items():
-            heapq.heappush(heap, (-counter[word], word)) #max heap 
+        for word, freq in counter.items():       #O(N)
+            
+            heap.append((-counter[word], word))
+            heapq.heapify(heap) 
         
-        return [w for _ in range(k) for freq, w in [heapq.heappop(heap)]]
+        return [w for _ in range(k) for freq, w in [heapq.heappop(heap)]] #o(klogN)
+        
 
 
 
