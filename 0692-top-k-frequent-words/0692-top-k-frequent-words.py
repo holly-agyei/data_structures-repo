@@ -2,7 +2,7 @@ import heapq
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         """
-        you do be sorting in any, so the time complexity will be around o(nlogn)
+        sorting gives nlogn but heaping gives klogn( much better)
         i just want to use max heap and pop k times.
         just build a max heap of -count, word, and then pop k times.
 
