@@ -9,9 +9,9 @@ class Solution:
             path, idx = stack.pop()
 
             #goal: when idx explores to the end of arr
-            if idx >= len(nums):
-                subsets.append(path)
-                continue
-            stack.append((path+[nums[idx]], idx+1))
-            stack.append((path, idx+1))
+            subsets.append(path)
+
+            for i in range(idx, len(nums)):
+                stack.append((path+[nums[i]], i+1))
+                
         return subsets
