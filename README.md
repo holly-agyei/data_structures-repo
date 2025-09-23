@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/holly-agyei/data_structures-repo/tree/master/0733-flood-fill) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/holly-agyei/data_structures-repo/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/holly-agyei/data_structures-repo/tree/master/1036-rotting-oranges) |
@@ -80,7 +82,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/holly-agyei/data_structures-repo/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/holly-agyei/data_structures-repo/tree/master/1036-rotting-oranges) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
