@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
+| [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
+| [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
