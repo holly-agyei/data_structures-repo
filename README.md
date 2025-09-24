@@ -99,10 +99,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
 | ------- |
 | [0165-compare-version-numbers](https://github.com/holly-agyei/data_structures-repo/tree/master/0165-compare-version-numbers) |
 | [0696-count-binary-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0696-count-binary-substrings) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
