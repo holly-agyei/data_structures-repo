@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
 | [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 ## Heap (Priority Queue)
 |  |
