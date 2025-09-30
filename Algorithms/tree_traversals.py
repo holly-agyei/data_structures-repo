@@ -37,5 +37,24 @@ def inorder(root):
             results.append(current.val)
             current = current.right
 
-def postoder(root):
-  pass    
+
+def postorderTraversal(root):
+#this is very simple, its a revered modified preorder. preorder is append right, then append left
+#but this is append left, then append right
+    if not root:
+        return []
+
+    stack = [root]
+    result = []
+
+    while stack:
+        node = stack.pop()
+        result.append(node.val)
+
+        if node.left:
+            stack.append(node.left)
+        if node.right:
+            stack.append(node.right)
+
+    return result[::-1]  # reverse the modified preorder
+    
