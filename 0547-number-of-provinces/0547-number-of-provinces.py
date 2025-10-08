@@ -3,6 +3,7 @@ class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         #this screams number of islands but not lol
         #u need to make an adjacency list first. 
+        #that matrix is actually an adjacency matrix 
 
         
         row, col = len(isConnected), len(isConnected[0])
