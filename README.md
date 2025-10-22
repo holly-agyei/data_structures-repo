@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
+| [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
 ## String
 |  |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0273-integer-to-english-words) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0696-count-binary-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0696-count-binary-substrings) |
+| [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 ## Trie
 |  |
 | ------- |
@@ -151,4 +153,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0273-integer-to-english-words) |
+## Binary Search
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
+## Design
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 <!---LeetCode Topics End-->
