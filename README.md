@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
+| [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 ## Heap (Priority Queue)
 |  |
