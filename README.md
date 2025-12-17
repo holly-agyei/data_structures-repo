@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
 | [0165-compare-version-numbers](https://github.com/holly-agyei/data_structures-repo/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
@@ -50,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
