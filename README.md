@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/holly-agyei/data_structures-repo/tree/master/0238-product-of-array-except-self) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
@@ -172,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/holly-agyei/data_structures-repo/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
