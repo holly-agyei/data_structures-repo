@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/holly-agyei/data_structures-repo/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0273-integer-to-english-words) |
+| [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0696-count-binary-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0696-count-binary-substrings) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
@@ -177,4 +179,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/holly-agyei/data_structures-repo/tree/master/0238-product-of-array-except-self) |
+## Sliding Window
+|  |
+| ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
