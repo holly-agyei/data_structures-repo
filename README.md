@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Holly%20Agyei&fontAlign=50&fontAlignY=40&color=0:0f172a,50:312e81,100:06b6d4&fontColor=ffffff&desc=Modern%20DSA%20Journey%20%7C%20Python%20%7C%20Problem%20Solving&descAlign=50&descAlignY=62" alt="Animated waving banner with Holly Agyei and a Modern DSA Journey tagline" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Holly%20Agyei&fontAlign=50&fontAlignY=40&color=0:0f172a,50:312e81,100:06b6d4&fontColor=ffffff&desc=Modern%20DSA%20Journey%20%7C%20Python%20%7C%20Problem%20Solving&descAlign=50&descAlignY=62" alt="Holly Agyei - Modern DSA Journey | Python | Problem Solving" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&center=true&vCenter=true&width=780&lines=Designing+clean+solutions+to+algorithm+problems;Building+consistency+one+commit+at+a+time;Inspired+by+modern+motion-first+UI+%F0%9F%94%A5" alt="Animated rotating messages: Designing clean solutions to algorithm problems; Building consistency one commit at a time; Inspired by modern motion-first UI" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&center=true&vCenter=true&width=780&lines=Designing+clean+solutions+to+algorithm+problems;Building+consistency+one+commit+at+a+time;Inspired+by+modern+motion-first+UI+%F0%9F%94%A5" alt="Designing clean solutions to algorithm problems; building consistency one commit at a time; inspired by modern motion-first UI" />
 
   <p>
     <a href="https://github.com/holly-agyei">
