@@ -1,4 +1,31 @@
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Holly%20Agyei&fontAlign=50&fontAlignY=40&color=0:0f172a,50:312e81,100:06b6d4&fontColor=ffffff&desc=Modern%20DSA%20Journey%20%7C%20Python%20%7C%20Problem%20Solving&descAlign=50&descAlignY=62" alt="Holly Agyei banner" />
+
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&center=true&vCenter=true&width=780&lines=Designing+clean+solutions+to+algorithm+problems;Building+consistency+one+commit+at+a+time;Inspired+by+modern+motion-first+UI+%F0%9F%94%A5" alt="Typing animation" />
+
+  <p>
+    <a href="https://github.com/holly-agyei">
+      <img src="https://img.shields.io/badge/Profile-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+    </a>
+    <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=22c55e" alt="Python"/>
+    <img src="https://img.shields.io/badge/DSA-0ea5e9?style=for-the-badge&logo=codeforces&logoColor=white" alt="DSA"/>
+    <img src="https://img.shields.io/badge/Focus-Consistency%20%26%20Growth-7c3aed?style=for-the-badge" alt="Focus"/>
+  </p>
+</div>
+
+## ✨ About this repository
+
+This is my algorithm practice vault with curated LeetCode solutions, organized by problem and topic.
+The layout below is auto-managed by LeetHub and acts as a fast index for revision.
+
+## ⚡ Quick highlights
+
+- Structured problem folders with solution-first organization.
+- Topic-based index for fast review before interviews.
+- Continuous improvement mindset with clean, readable Python solutions.
+
+> Inspired by modern, motion-forward UI aesthetics like 21st.dev.
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
