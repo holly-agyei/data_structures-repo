@@ -24,7 +24,7 @@ The layout below is auto-managed by LeetHub and acts as a fast index for revisio
 - Topic-based index for fast review before interviews.
 - Continuous improvement mindset with clean, readable Python solutions.
 
-> Inspired by modern, motion-forward UI aesthetics like 21st.dev.
+> Inspired by modern, motion-first UI aesthetics like 21st.dev.
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
