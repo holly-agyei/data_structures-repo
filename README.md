@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/holly-agyei/data_structures-repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/holly-agyei/data_structures-repo/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/holly-agyei/data_structures-repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
 | [0518-coin-change-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0518-coin-change-ii) |
