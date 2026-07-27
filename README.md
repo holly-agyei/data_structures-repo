@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0747-min-cost-climbing-stairs) |
 | [1036-rotting-oranges](https://github.com/holly-agyei/data_structures-repo/tree/master/1036-rotting-oranges) |
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Hash Table
 |  |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
 ## String
 |  |
@@ -193,4 +195,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 <!---LeetCode Topics End-->
