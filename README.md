@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
+| [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
+| [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/holly-agyei/data_structures-repo/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/holly-agyei/data_structures-repo/tree/master/0207-course-schedule) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
@@ -196,4 +199,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Graph Theory
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
