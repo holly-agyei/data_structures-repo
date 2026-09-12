@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/holly-agyei/data_structures-repo/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0747-min-cost-climbing-stairs) |
+| [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
 | [1036-rotting-oranges](https://github.com/holly-agyei/data_structures-repo/tree/master/1036-rotting-oranges) |
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0647-palindromic-substrings) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0696-count-binary-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0696-count-binary-substrings) |
+| [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 ## Trie
 |  |
@@ -208,8 +210,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
+| [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
 ## Union-Find
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
+| [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
 <!---LeetCode Topics End-->
