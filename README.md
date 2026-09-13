@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/holly-agyei/data_structures-repo/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/holly-agyei/data_structures-repo/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/holly-agyei/data_structures-repo/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/holly-agyei/data_structures-repo/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/holly-agyei/data_structures-repo/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/holly-agyei/data_structures-repo/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
 | [0273-integer-to-english-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0273-integer-to-english-words) |
