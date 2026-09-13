@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/holly-agyei/data_structures-repo/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## String
 |  |
 | ------- |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Design
 |  |
 | ------- |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Union-Find
 |  |
 | ------- |
@@ -225,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Bipartite Graph
 |  |
 | ------- |
