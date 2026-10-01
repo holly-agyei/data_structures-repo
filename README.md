@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/holly-agyei/data_structures-repo/tree/master/0238-product-of-array-except-self) |
+| [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/holly-agyei/data_structures-repo/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/holly-agyei/data_structures-repo/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0210-course-schedule-ii) |
+| [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/holly-agyei/data_structures-repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/holly-agyei/data_structures-repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0647-palindromic-substrings) |
@@ -249,4 +252,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
