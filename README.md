@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/holly-agyei/data_structures-repo/tree/master/0079-word-search) |
 | [0165-compare-version-numbers](https://github.com/holly-agyei/data_structures-repo/tree/master/0165-compare-version-numbers) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/holly-agyei/data_structures-repo/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/holly-agyei/data_structures-repo/tree/master/0046-permutations) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/holly-agyei/data_structures-repo/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/holly-agyei/data_structures-repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/0022-generate-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/holly-agyei/data_structures-repo/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Knapsack Problem
