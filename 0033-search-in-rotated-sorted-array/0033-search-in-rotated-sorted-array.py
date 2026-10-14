@@ -1,6 +1,7 @@
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         #at each point, part of the array is normally sorted
+        #2 things, pick the normally sorted half and check if ur target is there.
         """
         [1,2,3,4,5]
         """
