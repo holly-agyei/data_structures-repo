@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/holly-agyei/data_structures-repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/holly-agyei/data_structures-repo/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/holly-agyei/data_structures-repo/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/holly-agyei/data_structures-repo/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/holly-agyei/data_structures-repo/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/holly-agyei/data_structures-repo/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/holly-agyei/data_structures-repo/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/holly-agyei/data_structures-repo/tree/master/0208-implement-trie-prefix-tree) |
 | [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
@@ -276,9 +278,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/holly-agyei/data_structures-repo/tree/master/0146-lru-cache) |
 | [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 ## Hash Function
 |  |
 | ------- |
 | [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/holly-agyei/data_structures-repo/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
