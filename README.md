@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/holly-agyei/data_structures-repo/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/holly-agyei/data_structures-repo/tree/master/0695-max-area-of-island) |
+| [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 | [0733-flood-fill](https://github.com/holly-agyei/data_structures-repo/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0747-min-cost-climbing-stairs) |
 | [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/holly-agyei/data_structures-repo/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/holly-agyei/data_structures-repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0692-top-k-frequent-words](https://github.com/holly-agyei/data_structures-repo/tree/master/0692-top-k-frequent-words) |
+| [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 | [2661-first-completely-painted-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/2661-first-completely-painted-row-or-column) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/holly-agyei/data_structures-repo/tree/master/0208-implement-trie-prefix-tree) |
+| [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 | [1023-time-based-key-value-store](https://github.com/holly-agyei/data_structures-repo/tree/master/1023-time-based-key-value-store) |
 ## Prefix Sum
 |  |
@@ -270,4 +273,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/holly-agyei/data_structures-repo/tree/master/0322-coin-change) |
+## Linked List
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/holly-agyei/data_structures-repo/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
