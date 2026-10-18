@@ -3,7 +3,7 @@ class MyHashMap:
     def __init__(self):
         
         self.capacity = 50
-        self.size =0
+        self.size = 0
         self.buckets = [[] for _ in range(self.capacity)]
     
     def _hash(self, key):
@@ -20,12 +20,14 @@ class MyHashMap:
 
 
     def put(self, key: int, value: int) -> None:
+        self._resize()
         index = self._index(key)
         bucket = self.buckets[index]
         for pair in bucket:
             if pair[0] == key:
                 pair[1] = value
                 return
+
                 
         self.buckets[index].append([key, value])
         self.size +=1
@@ -46,8 +48,21 @@ class MyHashMap:
             if buck[0] == key:
                 del self.buckets[index][idx]
                 self.size-=1 
-    
-    
+
+    def _resize(self):
+        if self.size >0:
+            if self.size/self.capacity >0.75:
+                old = self.buckets
+                self.capacity*=2
+                self.buckets = [[] for _ in range(self.capacity)]
+
+                for bucket in old:
+                    for k,v in bucket:
+                        self.put(k,v)
+                return
+
+            
+            
 
         
 
