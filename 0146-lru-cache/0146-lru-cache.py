@@ -1,57 +1,94 @@
 class Node:
-    def __init__(self, key, val):
+    def __init__(self, key, value):
         self.key = key
-        self.val = val
+        self.value = value 
         self.prev = None
         self.next = None
+
 
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.cache = {}  # Maps key -> node
-        self.capacity = capacity
+        self.capacity = capacity 
+        self.lrudict = {}
+        self.head = None
+        self.tail = None
+        self.size = 0
 
-        # Dummy head and tail nodes to avoid edge checks
-        self.head = Node(0, 0)
-        self.tail = Node(0, 0)
+   
+    def _prepend(self, node):
+        if node is self.head:
+            return
 
-        self.head.next = self.tail
-        self.tail.prev = self.head
+        # Detach an existing node from its current position.
+        if node.prev is not None:
+            node.prev.next = node.next
 
-    # Helper: Add node right after head (most recent position)
-    def _insert(self, node):
-        node.prev = self.head
-        node.next = self.head.next
+        if node.next is not None:
+            node.next.prev = node.prev
 
-        self.head.next.prev = node
-        self.head.next = node
+        if node is self.tail:
+            self.tail = node.prev
 
-    # Helper: Remove any node from the list
+    # Your prepend logic.
+        node.prev = None
+
+        if self.head is None:
+            self.head = node
+            self.tail = node
+            node.next = None
+        else:
+            old_head = self.head
+            old_head.prev = node
+            node.next = old_head
+            self.head = node
+            
     def _remove(self, node):
-        prev = node.prev
-        nxt = node.next
-
-        prev.next = nxt
-        nxt.prev = prev
-
+        old_tail = self.tail
+        if old_tail.prev is not None:
+            before = old_tail.prev 
+            old_tail.prev = None 
+            before.next = None
+            self.tail = before
+            del self.lrudict[old_tail.key]
+        else:
+            self.tail = None
+            self.head = None
+            del self.lrudict[old_tail.key]     
+     
     def get(self, key: int) -> int:
-        if key in self.cache:
-            node = self.cache[key]
-            self._remove(node)
-            self._insert(node)  # Move to front as most recently used
-            return node.val
-        return -1
+        #return the value if exist else -1
+        if key not in self.lrudict:
+            return -1
+        node = self.lrudict[key]
+        self._prepend(node)
+        return node.value
+        
+        
 
     def put(self, key: int, value: int) -> None:
-        if key in self.cache:
-            self._remove(self.cache[key])  # Remove old node
+        node = Node(key, value)
+        if key not in self.lrudict:
+            self.lrudict[key] = node 
+            self.size+=1 
+            self._prepend(node) 
 
-        new_node = Node(key, value)
-        self._insert(new_node)
-        self.cache[key] = new_node
+            if self.size>self.capacity:
+                self._remove(self.tail)
+                self.size-=1
+            return
 
-        if len(self.cache) > self.capacity:
-            # Remove from both DLL and hashmap
-            lru = self.tail.prev  # Least recently used
-            self._remove(lru)
-            del self.cache[lru.key]
+        #this means the key exist, so just update the node and in dict as well
+        node = self.lrudict[key]
+        node.value = value
+        self._prepend(node)
+
+
+        #update if it exisits, else add
+        #if number of keys > than capacity, evict the least recently used
+
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
