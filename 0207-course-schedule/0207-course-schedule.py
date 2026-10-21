@@ -1,53 +1,29 @@
-from collections import defaultdict 
+from collections import deque
+
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        """
-        #first build a graph of course and their prerequisites a->b where a is pre of b
-        that's actually list cox this is a directed graph. a mapping to b, direction is important
+    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
+        graph = [[] for _ in range(numCourses)]
+        indegrees = [0] * numCourses
+        can_do = deque()
 
-        """
-        nodes = set()
-        graph = defaultdict(list)
-        for u,v in prerequisites:
-            graph[u].append(v)
-            nodes.add(u)
-            nodes.add(v)
-       
-        #now we are gonna use stacks for this
-        #since there can be disconnection in the dag
-        visited = set()
-        instack = set()
+        for course, pre in prerequisites:
+            graph[pre].append(course)
+            indegrees[course] += 1
 
-        for node in nodes:
-            if node in visited:
-                continue
-            stack = [(node, 0)]
-            while stack:
-                node, state = stack.pop()
-                if state == 1:
-                    instack.discard(node)
-                    continue
-                # if node in visited:
-                #     continue
-                stack.append((node,1))
-                instack.add(node)
-                visited.add(node)
+        for idx, num in enumerate(indegrees):
+            if num == 0:
+                can_do.append(idx)
 
-                for nei in graph[node]:
-                    if nei not in visited:
-                        stack.append((nei,0))
-                    elif nei in instack:
-                        return False
-        return True
+        count = len(can_do)
 
+        while can_do:
+            course = can_do.popleft()
 
+            for nei in graph[course]:
+                indegrees[nei] -= 1
 
-                
+                if indegrees[nei] == 0:
+                    can_do.append(nei)
+                    count += 1
 
-
-
-
-
-
-
-        
+        return count == numCourses
