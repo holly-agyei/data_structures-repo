@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/holly-agyei/data_structures-repo/tree/master/0078-subsets) |
+| [1494-parallel-courses-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/1494-parallel-courses-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/holly-agyei/data_structures-repo/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/holly-agyei/data_structures-repo/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/holly-agyei/data_structures-repo/tree/master/1236-n-th-tribonacci-number) |
+| [1494-parallel-courses-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/1494-parallel-courses-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/holly-agyei/data_structures-repo/tree/master/0547-number-of-provinces) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/holly-agyei/data_structures-repo/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/holly-agyei/data_structures-repo/tree/master/0990-satisfiability-of-equality-equations) |
+| [1494-parallel-courses-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/1494-parallel-courses-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/holly-agyei/data_structures-repo/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Union-Find
 |  |
@@ -293,4 +296,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/holly-agyei/data_structures-repo/tree/master/0207-course-schedule) |
+| [1494-parallel-courses-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/1494-parallel-courses-ii) |
+## Bitmask
+|  |
+| ------- |
+| [1494-parallel-courses-ii](https://github.com/holly-agyei/data_structures-repo/tree/master/1494-parallel-courses-ii) |
 <!---LeetCode Topics End-->
